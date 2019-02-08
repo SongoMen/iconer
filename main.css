@@ -12,7 +12,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Montserrat';
-}   
+}
 
 
 body,html{
@@ -54,11 +54,17 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+		margin-top: 5%;
+		margin-bottom: 100px
 }
 
 header svg {
     width:100px;
-    height: 100px;
+    min-height: 100px;
+}
+header h1{
+
+	margin-top:0	;
 }
 
 .search{
@@ -104,8 +110,8 @@ header svg {
     background-color:#dde4e9;
     padding:20px 20px;
     transition: all .5s;
-    min-width:110px;
-    min-height: 110px;
+    width:110px;
+    height: 110px;
 
 }
 
@@ -130,10 +136,13 @@ li img{
     height: 30px;
 }
 
-@media only screen and (max-width:1150px) {
+@media only screen and (max-width:1050px) {
     .icons{
         width:100%;
     }
+		.search__bar{
+				width:90%;
+		}
 }
 @media only screen and (max-width:500px) {
     .icons{
