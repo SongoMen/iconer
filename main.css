@@ -111,10 +111,15 @@ header svg {
     width:110px;
     height: 110px;
     border-radius: 10px;
+    margin:10px;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
 
-.icons div{
+li{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +135,7 @@ header svg {
     box-shadow: #bdc3c7 0px 0.4rem 1.5rem 0px;
 }
 
-.icons div img{
+li img{
     width:30px;
     height: 30px;
 }
