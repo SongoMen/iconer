@@ -12,7 +12,7 @@ function getIcons() {
           a.download =`${name}`
           a.target="blank"
           a.className="icons__box";
-          a.innerHTML=`<li><img src=${url}></img><p>${name}</p></li>`
+          a.innerHTML=`<img alt=${name} src=${url}></img><p>${name}</p>`
         });
       })
       .then(function(){
