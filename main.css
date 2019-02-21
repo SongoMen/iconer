@@ -113,7 +113,8 @@ header svg {
     border-radius: 10px;
 }
 
-li{
+
+.icons div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +130,7 @@ li{
     box-shadow: #bdc3c7 0px 0.4rem 1.5rem 0px;
 }
 
-li img{
+.icons div img{
     width:30px;
     height: 30px;
 }

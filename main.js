@@ -6,10 +6,10 @@ function getIcons() {
         snapshot.forEach(function(child){ 
           let name = child.val().name;
           let url = child.val().url;
-          let li = document.createElement('li');
-          icons.appendChild(li)
-          li.className="icons__box";
-          li.innerHTML=`<img src=${url}></img><p>${name}</p>`
+          let div = document.createElement('div');
+          icons.appendChild(div)
+          div.className="icons__box";
+          div.innerHTML=`<img alt=${name} src=${url}></img><p>${name}</p>`
         });
       })
       .then(function(){

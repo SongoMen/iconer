@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Social Media Icons</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Website with icons.">
+    <meta name="theme-color" content="#FF6700"/>
+
+    <title>Iconer - Social Media Icons</title>
+
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="preload" href="main.js" as="script">
+
     <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
     <script>
         var config = {
@@ -66,7 +72,7 @@
             <input type="text" onkeyup="filterFunc()" class="search__bar" id="search__bar" placeholder="Type icon name">
         </div>
         <div class="icons" id="icons">
-
+            
         </div>
     </div>
     <script src="main.js"></script>
