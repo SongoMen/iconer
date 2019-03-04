@@ -28,12 +28,11 @@ function getIcons() {
     let li,a,txtValue,filter;
     filter = input.value;
     a = icons.getElementsByTagName('a');
-    li = icons.getElementsByTagName('li');
-    for (i = 0; i < li.length; i++) {
-        p = li[i].getElementsByTagName("p")[0];
+    for (i = 0; i < a.length; i++) {
+        p = a[i].getElementsByTagName("p")[0];
         txtValue = p.textContent || p.innerText;
         if (txtValue.indexOf(filter) > -1) {
-          a[i].style.display = "block";
+          a[i].style.display = "flex";
         } else {
           a[i].style.display = "none";
         }
